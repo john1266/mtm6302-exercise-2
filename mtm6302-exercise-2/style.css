@@ -1,0 +1,89 @@
+h1{
+    display: flex;
+    font-size: 4rem;
+    font-family: Impact;
+    justify-content: center;
+}
+
+.gallery{
+    background-color: lightgrey;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+img{
+    width: 22.5%;
+    height: auto;
+    padding-right: 1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+img:hover{
+    transform: scale(1.5);
+}
+
+
+
+@media (min-width: 601px) and (max-width: 1200px) {
+    h1{
+        display: flex;
+        font-size: 3rem;
+        font-family: Impact;
+        justify-content: center;
+    }
+    
+    .gallery{
+        background-color: lightgray;
+        padding: 5%;
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+    
+    img{
+        width: 30%;
+        height: auto;
+        padding-right: 1%;
+        padding-left: 1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    
+    img:hover{
+        transform: scale(1.3);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        display: flex;
+        font-size: 2.5rem;
+        font-family: Impact;
+        justify-content: center;
+    }
+    
+    .gallery{
+        background-color: lightgray;
+    
+    }
+    
+    img{
+        width: 90%;
+        height: auto;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+    }
+    
+    
+    img:hover{
+        transform: scale(1.1);
+    }
+}
